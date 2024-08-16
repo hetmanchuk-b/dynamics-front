@@ -28,10 +28,10 @@ export default function HomeSection() {
       </div>
 
       <div className="absolute inset-0 z-10 overflow-hidden">
-        <img src="/assets/img/home-bg-mob.svg" className="w-full object-cover md:hidden" alt=""/>
-        <img src="/assets/img/home-blured.svg" width="1572" height="1060" className="hidden md:block object-cover absolute top-0 left-1/4" alt=""/>
-        <img src="/assets/img/home-mob.png" className="w-full max-h-[792px] object-cover absolute bottom-0 xsm:hidden" alt=""/>
-        <img src="/assets/img/home-full.png" className="translate-y-[201px] main-home-pic hidden xsm:block w-[1920px] h-[1034px] absolute object-cover -bottom-28 md:-bottom-[300px]" alt=""/>
+        <img src="/public/assets/img/home-bg-mob.svg" className="w-full object-cover md:hidden" alt=""/>
+        <img src="/public/assets/img/home-blured.svg" width="1572" height="1060" className="hidden md:block object-cover absolute top-0 left-1/4" alt=""/>
+        <img src="/public/assets/img/home-mob.png" className="w-full max-h-[792px] object-cover absolute bottom-0 xsm:hidden" alt=""/>
+        <img src="/public/assets/img/home-full.png" className="translate-y-[201px] main-home-pic hidden xsm:block w-[1920px] h-[1034px] absolute object-cover -bottom-28 md:-bottom-[300px]" alt=""/>
       </div>
 
       <div className="relative z-20 pt-20">

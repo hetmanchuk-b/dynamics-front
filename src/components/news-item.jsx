@@ -9,11 +9,11 @@ export default function NewsItem() {
         </div>
       </div>
       <div className="overflow-hidden aspect-[1.1] w-full bg-black max-w-md mx-auto lg:order-2 lg:mx-0 lg:w-1/4">
-        <img src="/assets/img/news-placeholder.jpg" width={460} height={382} className="h-full w-full object-cover" alt=""/>
+        <img src="/public/assets/img/news-placeholder.jpg" width={460} height={382} className="h-full w-full object-cover" alt=""/>
       </div>
 
       <div className="flex items-center gap-2 mt-6 text-lg font-medium lg:order-1 lg:mt-0 lg:w-1/5">
-        <img src="/assets/img/icons/date.svg" width="18" height="18" alt=""/>
+        <img src="/public/assets/img/icons/date.svg" width="18" height="18" alt=""/>
         <span className="bg-gradient-to-b from-blue-700 via-blue-400 to-blue-700 bg-clip-text text-transparent">
           25.08.2023
         </span>
