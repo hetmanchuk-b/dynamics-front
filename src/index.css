@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Euclid Square', sans-serif;
+}
+
+img {
+    font-style: italic;
+}
+
+.font-secondary {
+    font-family: "Intro Regular", serif;
+}
+
+.underline-black:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -2px;
+    height: 2px;
+    background-color: #000;
+}
+.underline-black:hover:before {
+    background-color: #1B81E7;
+}
