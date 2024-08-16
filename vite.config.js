@@ -5,6 +5,7 @@ import {resolve} from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "https://hetmanchuk-b.github.io/dynamics-front/",
   build: {
     rollupOptions: {
       input: {
