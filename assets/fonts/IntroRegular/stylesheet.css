@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Intro Regular';
+    src: url('intro_regular.eot');
+    src: local('Intro Regular'), local('Intro Regular'),
+        url('intro_regular.eot?#iefix') format('embedded-opentype'),
+        url('intro_regular.woff2') format('woff2'),
+        url('intro_regular.woff') format('woff'),
+        url('intro_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
