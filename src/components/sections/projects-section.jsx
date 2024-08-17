@@ -3,25 +3,25 @@ import {twMerge} from "tailwind-merge";
 
 const mockProjectsData = [
   {
-    imgSrc: "assets/img/gallery/1.jpg",
+    imgSrc: "/assets/img/gallery/1.jpg",
     title: 'Glazing of a premium-class residential building',
     index: 1,
     isOpen: true
   },
   {
-    imgSrc: "assets/img/gallery/2.jpg",
+    imgSrc: "/assets/img/gallery/2.jpg",
     title: 'Glazing2 of a premium-class residential building',
     index: 2,
     isOpen: false
   },
   {
-    imgSrc: "assets/img/gallery/3.jpg",
+    imgSrc: "/assets/img/gallery/3.jpg",
     title: 'Glazing 3of a premium-class residential building',
     index: 3,
     isOpen: false
   },
   {
-    imgSrc: "assets/img/gallery/4.jpg",
+    imgSrc: "/assets/img/gallery/4.jpg",
     title: 'Glazing of a premium-class residential building',
     index: 4,
     isOpen: false
@@ -75,10 +75,10 @@ export default function ProjectsSection() {
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-5 px-[25px] pt-10 pb-5 lg:hidden">
-        <img src="assets/img/gallery/1.jpg" className="col-span-full sm:col-start-1 sm:col-end-4 w-full" alt=""/>
-        <img src="assets/img/gallery/2.jpg" className="w-full sm:col-start-4 sm:col-end-6" alt=""/>
-        <img src="assets/img/gallery/3.jpg" className="w-full sm:col-start-1 sm:col-end-3" alt=""/>
-        <img src="assets/img/gallery/4.jpg" className="col-span-full sm:col-start-3 sm:col-end-5 w-full" alt=""/>
+        <img src="/assets/img/gallery/1.jpg" className="col-span-full sm:col-start-1 sm:col-end-4 w-full" alt=""/>
+        <img src="/assets/img/gallery/2.jpg" className="w-full sm:col-start-4 sm:col-end-6" alt=""/>
+        <img src="/assets/img/gallery/3.jpg" className="w-full sm:col-start-1 sm:col-end-3" alt=""/>
+        <img src="/assets/img/gallery/4.jpg" className="col-span-full sm:col-start-3 sm:col-end-5 w-full" alt=""/>
       </div>
 
       <div className="flex justify-center pb-10 lg:hidden">

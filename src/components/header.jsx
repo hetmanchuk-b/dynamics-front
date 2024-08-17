@@ -35,8 +35,8 @@ export default function Header({isWhite = false}) {
           )}
 
           <a href="/" className="cursor-pointer block">
-            <img src="assets/img/logo-blue.svg" className="xl:hidden" width="55" height="35" alt="Buildwise" />
-            <img src="assets/img/logo-full-blue.svg" className="xl:block hidden" width="307" height="35" alt="Buildwise" />
+            <img src="/assets/img/logo-blue.svg" className="xl:hidden" width="55" height="35" alt="Buildwise" />
+            <img src="/assets/img/logo-full-blue.svg" className="xl:block hidden" width="307" height="35" alt="Buildwise" />
           </a>
 
           <div className="hidden lg:flex items-center gap-10 xl:gap-24">
@@ -104,20 +104,20 @@ export default function Header({isWhite = false}) {
           <div className="hidden lg:block">
             <div className="flex items-center gap-2 justify-center">
               <a href="/" className="flex items-center justify-center size-[67px] rounded-full relative group">
-                <img src="assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
+                <img src="/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
                 {isWhite ? (
-                  <img src="assets/img/icons/instagram-blue.svg" width="20" height="20" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/instagram-blue.svg" width="20" height="20" className="relative z-20" alt=""/>
                 ) : (
-                  <img src="assets/img/icons/instagram.svg" width="20" height="20" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/instagram.svg" width="20" height="20" className="relative z-20" alt=""/>
                 )}
                 <span className="sr-only">Instagram</span>
               </a>
               <a href="/" className="flex items-center justify-center size-[67px] rounded-full relative group">
-                <img src="assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
+                <img src="/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
                 {isWhite ? (
-                  <img src="assets/img/icons/facebook-blue.svg" width="10" height="18" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/facebook-blue.svg" width="10" height="18" className="relative z-20" alt=""/>
                 ) : (
-                  <img src="assets/img/icons/facebook.svg" width="10" height="18" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/facebook.svg" width="10" height="18" className="relative z-20" alt=""/>
                 )}
                 <span className="sr-only">Facebook</span>
               </a>
@@ -153,20 +153,20 @@ export default function Header({isWhite = false}) {
 
             <div className="flex items-center gap-2 justify-center">
               <a href="/" className="flex items-center justify-center size-[67px] rounded-full relative group">
-                <img src="assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
+                <img src="/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
                 {isWhite ? (
-                  <img src="assets/img/icons/instagram-blue.svg" width="20" height="20" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/instagram-blue.svg" width="20" height="20" className="relative z-20" alt=""/>
                 ) : (
-                  <img src="assets/img/icons/instagram.svg" width="20" height="20" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/instagram.svg" width="20" height="20" className="relative z-20" alt=""/>
                 )}
                 <span className="sr-only">Instagram</span>
               </a>
               <a href="/" className="flex items-center justify-center size-[67px] rounded-full relative group">
-                <img src="assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
+                <img src="/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
                 {isWhite ? (
-                  <img src="assets/img/icons/facebook-blue.svg" width="10" height="18" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/facebook-blue.svg" width="10" height="18" className="relative z-20" alt=""/>
                 ) : (
-                  <img src="assets/img/icons/facebook.svg" width="10" height="18" className="relative z-20" alt=""/>
+                  <img src="/assets/img/icons/facebook.svg" width="10" height="18" className="relative z-20" alt=""/>
                 )}
                 <span className="sr-only">Facebook</span>
               </a>
