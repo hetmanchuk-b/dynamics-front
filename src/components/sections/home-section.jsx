@@ -38,8 +38,8 @@ export default function HomeSection() {
         <div className="pt-10 px-5 flex items-center flex-col lg:items-start lg:px-20">
           <p className="font-secondary text-15 uppercase text-white mb-3 text-center sm:text-25">Innovative Building Solutions</p>
           <h1 className="uppercase font-secondary text-center text-white leading-none lg:text-start">
-            <span className="text-149 lg:text-8xl lg:mr-6 xl:mr-10 xl:text-149 3xl:text-219">ADR</span> <br className="lg:hidden"/>
-            <span className="text-56 lg:text-8xl xl:text-149 3xl:text-219">DYNAMICS</span>
+            {/*<span className="text-149 lg:text-8xl lg:mr-6 xl:mr-10 xl:text-149 3xl:text-219"></span> <br className="lg:hidden"/>*/}
+            <span className="text-56 lg:text-8xl xl:text-149 3xl:text-219">Buildwise</span>
           </h1>
           <div className="w-full flex flex-col items-center lg:flex-row lg:w-2/3 lg:gap-10 lg:ml-auto lg:mt-10 xl:w-[60%] 2xl:w-1/2">
             <p className="text-15 text-white text-center mt-5 text-balance lg:mt-0">
