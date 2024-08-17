@@ -40,13 +40,14 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} name="contact" data-netlify="true">
+    <form onSubmit={handleSubmit} name="contact">
       <input type="hidden" name="form-name" value="contact" />
       <div className="space-y-10 mt-4 lg:space-y-0 lg:flex lg:gap-8 lg:mt-6 lg:w-full 3xl:mt-12">
         <div className="space-y-1 lg:grow">
           <input
             type="text"
             name='phone'
+            id="phone"
             value={formData.phone}
             onChange={handleChange}
             placeholder='Your Phone'
@@ -63,6 +64,7 @@ export default function ContactForm() {
           <input
             type="text"
             name='name'
+            id="name"
             value={formData.name}
             onChange={handleChange}
             placeholder='Your Name'
