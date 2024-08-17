@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-start gap-10">
               <div className="space-y-12">
                 <img
-                  src="/public/assets/img/logo-full-blue.svg"
+                  src="/assets/img/logo-full-blue.svg"
                   width="262"
                   height="30"
                   alt=""
@@ -18,13 +18,13 @@ export default function Footer() {
                 <div className="flex items-center gap-3">
                   <div className="flex items-center gap-2 justify-center">
                     <a href="/" className="flex items-center justify-center size-[67px] rounded-full relative group">
-                      <img src="/public/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
-                      <img src="/public/assets/img/icons/instagram-blue.svg" className="relative z-20" alt=""/>
+                      <img src="/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
+                      <img src="/assets/img/icons/instagram-blue.svg" className="relative z-20" alt=""/>
                       <span className="sr-only">Instagram</span>
                     </a>
                     <a href="/" className="flex items-center justify-center size-[67px] rounded-full relative group">
-                      <img src="/public/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
-                      <img src="/public/assets/img/icons/facebook-blue.svg" className="relative z-20" alt=""/>
+                      <img src="/assets/img/socials-border.svg" className="absolute inset-0 object-cover transition z-10 group-hover:opacity-50" alt=""/>
+                      <img src="/assets/img/icons/facebook-blue.svg" className="relative z-20" alt=""/>
                       <span className="sr-only">Facebook</span>
                     </a>
                   </div>

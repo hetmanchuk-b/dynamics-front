@@ -28,7 +28,7 @@ export default function CatalogPage() {
       <div className="py-10 px-6">
         <div className="flex items-center justify-center gap-2 lg:gap-6">
           <button className="flex items-center justify-center size-[86px] border border-[#C2C2C2] rounded-full bg-transparent transition hover:bg-pale/50 group">
-            <img src="/public/assets/img/slider-left.svg" className="group-hover:scale-125 transition" alt=""/>
+            <img src="/assets/img/slider-left.svg" className="group-hover:scale-125 transition" alt=""/>
           </button>
           <div className="flex items-center justify-center">
             <div className="size-[52px] rounded-full text-lg text-pale items-center justify-center cursor-pointer hover:bg-ocean/50 hover:text-white hidden lg:flex">1</div>
@@ -42,7 +42,7 @@ export default function CatalogPage() {
             <div className="size-[52px] rounded-full text-lg text-pale flex items-center justify-center cursor-pointer hover:bg-ocean/50 hover:text-white">6</div>
           </div>
           <button className="flex items-center justify-center size-[86px] border border-[#C2C2C2] rounded-full bg-transparent transition hover:bg-pale/50 group">
-            <img src="/public/assets/img/slider-left.svg" className="rotate-180 group-hover:scale-125 transition" alt=""/>
+            <img src="/assets/img/slider-left.svg" className="rotate-180 group-hover:scale-125 transition" alt=""/>
           </button>
         </div>
       </div>

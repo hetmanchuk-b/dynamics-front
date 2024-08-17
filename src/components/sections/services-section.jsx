@@ -34,10 +34,10 @@ export default function ServicesSection() {
         </h2>
         <div className="hidden lg:flex items-start">
           <button onClick={() => servicesSliderRef.slickPrev()} className="flex items-center justify-center size-[86px] border border-[#C2C2C2] rounded-full bg-transparent transition hover:bg-pale/50 group">
-            <img src="/public/assets/img/slider-left.svg" className="group-hover:scale-125 transition" alt=""/>
+            <img src="assets/img/slider-left.svg" className="group-hover:scale-125 transition" alt=""/>
           </button>
           <button onClick={() => servicesSliderRef.slickNext()} className="flex items-center justify-center size-[86px] border border-[#C2C2C2] rounded-full bg-transparent transition hover:bg-pale/50 group -ml-4">
-            <img src="/public/assets/img/slider-left.svg" className="rotate-180 group-hover:scale-125 transition" alt=""/>
+            <img src="assets/img/slider-left.svg" className="rotate-180 group-hover:scale-125 transition" alt=""/>
           </button>
         </div>
       </div>
