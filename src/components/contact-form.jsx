@@ -33,7 +33,8 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} name="contact" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact"/>
       <div className="space-y-10 mt-4 lg:space-y-0 lg:flex lg:gap-8 lg:mt-6 lg:w-full 3xl:mt-12">
         <div className="space-y-1 lg:grow">
           <input
