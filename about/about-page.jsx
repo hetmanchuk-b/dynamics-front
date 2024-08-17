@@ -8,7 +8,7 @@ export default function AboutPage() {
       <Header isWhite={true} />
 
       <PageHeader
-        title={'About ADR Dynamics'}
+        title={'About Buildwise'}
         breadcrumbs={[
           {name: 'Main', url: '/'},
           {name: 'About us', url: '/about/'}

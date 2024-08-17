@@ -35,8 +35,8 @@ export default function Header({isWhite = false}) {
           )}
 
           <a href="/" className="cursor-pointer block">
-            <img src="assets/img/logo-blue.svg" className="xl:hidden" width="55" height="35" alt="ADR Dynamics" />
-            <img src="assets/img/logo-full-blue.svg" className="xl:block hidden" width="307" height="35" alt="ADR Dynamics" />
+            <img src="assets/img/logo-blue.svg" className="xl:hidden" width="55" height="35" alt="Buildwise" />
+            <img src="assets/img/logo-full-blue.svg" className="xl:block hidden" width="307" height="35" alt="Buildwise" />
           </a>
 
           <div className="hidden lg:flex items-center gap-10 xl:gap-24">
