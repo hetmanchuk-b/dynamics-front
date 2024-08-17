@@ -18,7 +18,7 @@ export default function HomeSection() {
   })
 
   return (
-    <main className="min-h-screen bg-gradient-to-r from-[#A9B7C5] via-[#7D8DAB] to-[#526492] relative 2xl:pb-10">
+    <main className="min-h-screen bg-gradient-to-r from-[#A9B7C5] via-[#7D8DAB] to-[#526492] relative 2xl:pb-10 overflow-hidden">
       <div className="absolute z-30 hidden lg:block left-8 bottom-8">
         <button onClick={scrollToServices} className="size-[112px] cursor-pointer flex items-center justify-center border border-l-0 border-b-0 border-t-0 transition hover:border-l hover:border-t hover:border-b rounded-full bg-transparent active:bg-white group">
           <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +50,7 @@ export default function HomeSection() {
         </div>
 
         <div className="mt-56 lg:mt-40 px-5 text-center text-white md:text-start lg:px-0 before-main-text translate-x-full">
-          <div className="backdrop-blur-2xl bg-[#181818]/20 px-8 py-12 md:grid md:grid-cols-3 md:gap-8 lg:ml-auto lg:w-3/4 xl:pr-24 2xl:pr-44 relative -bottom-10 xl:static">
+          <div className="backdrop-blur-2xl bg-[#181818]/20 px-8 py-12 md:grid md:grid-cols-3 md:gap-8 lg:ml-auto lg:w-3/4 xl:pr-24 2xl:pr-44 relative xl:static">
             <h2 className="main-text-appears text-xl uppercase font-medium md:col-span-full md:text-37 md:font-normal">Why clients choose us?</h2>
 
             <div className="mt-10 md:mt-0 main-text-appears">
