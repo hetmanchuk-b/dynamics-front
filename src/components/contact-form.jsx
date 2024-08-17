@@ -30,11 +30,18 @@ export default function ContactForm() {
     if (validateForm()) {
       console.log("Form Data:", formData);
     }
+    fetch('/', {
+      method: "POST",
+      headers: {"Content-Type": "application/x-www-form-urlencoded"},
+      body: new URLSearchParams(formData).toString()
+    })
+      .then(() => console.log("Form successfully submitted"))
+      .catch((error) => console.log(error));
   };
 
   return (
     <form onSubmit={handleSubmit} name="contact" netlify>
-      <input type="hidden" name="form-name" value="contact"/>
+      <input type="hidden" name="form-name" value="contact" />
       <div className="space-y-10 mt-4 lg:space-y-0 lg:flex lg:gap-8 lg:mt-6 lg:w-full 3xl:mt-12">
         <div className="space-y-1 lg:grow">
           <input
