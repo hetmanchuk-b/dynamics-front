@@ -9,12 +9,14 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-14 pt-24 pb-20 2xl:px-[100px] px-[25px]">
             <div className="flex items-start gap-10">
               <div className="space-y-12">
-                <img
-                  src="/assets/img/logo-full-blue.svg"
-                  width="262"
-                  height="30"
-                  alt=""
-                />
+                <div className="px-2 py-1 bg-metal">
+                  <img
+                    src="/assets/img/logo-full-blue.png"
+                    width="2212"
+                    height="444"
+                    alt=""
+                  />
+                </div>
                 <div className="flex items-center gap-3">
                   <div className="flex items-center gap-2 justify-center">
                     <a href="/" className="flex items-center justify-center size-[67px] rounded-full relative group">
