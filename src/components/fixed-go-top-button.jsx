@@ -25,7 +25,7 @@ export default function FixedGoTopButton() {
   return (
     <div
       className={twMerge(
-        'fixed z-50 right-6 bottom-10 transition duration-1000 ease-out',
+        'fixed z-40 right-6 bottom-10 transition duration-1000 ease-out',
         showButton ? 'translate-y-0' : 'translate-y-52'
       )}
     >

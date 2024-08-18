@@ -43,6 +43,7 @@ export default {
         primary: "#2C2C2C",
         pale: "#D3D3D3",
         "pale-bg": "#F3F3F3",
+        "pale-cream": "#F9F9F9",
         ocean: "#1B81E7",
         borders: "#E7E7E7",
         danger: "#FF1717",

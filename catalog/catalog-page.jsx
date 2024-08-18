@@ -3,6 +3,7 @@ import Footer from "../src/components/footer";
 import PageHeader from "../src/components/page-header";
 import CatalogItem from "../src/components/catalog-item";
 import {twMerge} from "tailwind-merge";
+import ContactModal from "../src/components/contact-modal";
 
 export default function CatalogPage() {
   return (
@@ -48,6 +49,7 @@ export default function CatalogPage() {
       </div>
 
       <Footer />
+      <ContactModal />
     </div>
   )
 }
