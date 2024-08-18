@@ -2,11 +2,11 @@ import {twMerge} from "tailwind-merge";
 import {useEffect, useState} from "react";
 
 export default function FixedGoTopButton() {
+  const [showButton, setShowButton] = useState(false);
+
   const handleGoTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
-
-  const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,7 +16,6 @@ export default function FixedGoTopButton() {
         setShowButton(false);
       }
     }
-
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll)

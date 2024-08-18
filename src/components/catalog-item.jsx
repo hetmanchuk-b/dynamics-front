@@ -1,4 +1,6 @@
 export default function CatalogItem() {
+  const handleOpenModal = () => document.getElementById('contact-modal').classList.remove('hidden');
+
   return (
     <div className="flex flex-col items-start px-[25px] max-w-md mx-auto border-b border-t border-borders xl:max-w-full xl:grid xl:grid-cols-4 xl:gap-4 xl:py-10">
       <div className="space-y-8 leading-tight pt-12 xl:pt-0 xl:space-y-4">
@@ -53,7 +55,7 @@ export default function CatalogItem() {
       </div>
 
       <div className="flex flex-col items-center gap-8 w-full mt-12 pb-12 xl:pb-0 xl:mt-0">
-        <button className="transition mx-auto bg-gradient-to-r from-[#48A6FA] via-[#8AC8FF] to-[#1B81E7] text-white text-lg rounded-full w-full max-w-[326px] lg:max-w-[409px] min-h-[92px] cursor-pointer border border-white active:border-ocean active:bg-transparent hover:from-[#48A6FA] hover:to-[#48A6FA] hover:text-white hover:border-ocean">
+        <button onClick={handleOpenModal} className="transition mx-auto bg-gradient-to-r from-[#48A6FA] via-[#8AC8FF] to-[#1B81E7] text-white text-lg rounded-full w-full max-w-[326px] lg:max-w-[409px] min-h-[92px] cursor-pointer border border-white active:border-ocean active:bg-transparent hover:from-[#48A6FA] hover:to-[#48A6FA] hover:text-white hover:border-ocean">
           Find out the details
         </button>
         <p className="text-xs text-primary text-center text-balance">If you submit an application, you automatically consent to the processing of your personal data</p>

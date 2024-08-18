@@ -26,3 +26,47 @@ img {
 .underline-black:hover:before {
     background-color: #1B81E7;
 }
+
+.form-checkbox {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-checkbox label {
+    position: relative;
+    cursor: pointer;
+}
+
+.form-checkbox label:before {
+    content:'';
+    -webkit-appearance: none;
+    @apply bg-gradient-to-r from-[#48A6FA] via-[#8AC8FF] to-[#1B81E7] rounded-full;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.form-checkbox input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    width: 5px;
+    height: 8px;
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
